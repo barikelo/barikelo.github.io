@@ -8,120 +8,122 @@
     <meta name="color-scheme" content="dark light">
     <link rel="stylesheet" href="./styles/styles.css">
     <title>Marcel Berlak</title>
-    <link rel="icon" type="image/png" href="faviconBig.png" />
+    <link rel="icon" type="image/png" href="favicondark.png" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <div id="navbar">
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+    <div class="wrapper">
+        <div class="stars"></div>
+        <div id="navbar">
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#AboutMe">About me</a></li>
+                            <li><a href="#MyWork">My work</a></li>
+                            <li><a href="#Contact">Contact</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav">
-                        <li><a href="#AboutMe">About me</a></li>
-                        <li><a href="#MyWork">My work</a></li>
-                        <li><a href="#Contact">Contact</a></li>
-                    </ul>
+            </nav>
+        </div>
+
+        <!-- <a href="index.html"> <img id="logo" src="./LogoMB.png" onclick="index.html" /></a> -->
+
+        <div class="presentation">
+            <img src="./astronaut120.png" />
+            <h2> Journey of a junior web developer </h2>
+            <hr>
+
+            <h4>Hello, my name is</h4>
+            <h2>Marcel Berlak</h2>
+            <h4>Welcome to my portfolio</h4>
+            <hr>
+            <a class="Touch" href="mailto:marcel.berlak@gmail.com">Get in Touch</a>
+        </div>
+
+
+
+        <div id="AboutMe">
+            <h2>About me</h2>
+            <h4> I am a web developer at the beginning of my career. </h4>
+            <h4>Since graduating last year I have been learning and improving </h4>
+            <h4>my knowledge in development to pursue my dreams. </h4>
+            <h4>My goal is to make visually pleasing and user-friendly websites and applications. </h4>
+            &nbsp;
+
+            <h4>In my free time, if I am not learning anything new, </h4>
+            <h4>you will probably see me drinking some coffee or enjoying a cold beer.</h4>
+
+        </div>
+        <div id="MyWork">
+            <h2>My work</h2>
+            <div class="projects">
+                <div class="project12">
+                    <h3>Slot Machine</h3>
+                    <h5 style="padding-bottom: 3em; ">A classic casino game, developed in HTML, CSS and
+                        JavaScript. </h5>
+                    <img id="SlotMachine" src="./MyWork/SlotMachine1.png" alt="Slot Machine" />
+                    <h6>Coming soon on my Github</h6>
                 </div>
-            </div>
-        </nav>
-    </div>
-
-    <!-- <a href="index.html"> <img id="logo" src="./LogoMB.png" onclick="index.html" /></a> -->
-
-    <div class="presentation">
-        <img src="./astronaut120.png" />
-        <h2> Journey of a junior web developer </h2>
-        <hr>
-
-        <h4>Hello, my name is</h4>
-        <h2>Marcel Berlak</h2>
-        <h4>Welcome to my portfolio</h4>
-        <hr>
-        <a class="Touch" href="mailto:marcel.berlak@gmail.com">Get in Touch</a>
-    </div>
-
-
-
-    <div id="AboutMe">
-        <h2>About me</h2>
-        <h4> I am a web developer at the beginning of my career. </h4>
-        <h4>Since graduating last year I have been learning and improving </h4>
-        <h4>my knowledge in development to pursue my dreams. </h4>
-        <h4>My goal is to make visually pleasing and user-friendly websites and applications. </h4>
-        &nbsp;
-
-        <h4>In my free time, if I am not learning anything new, </h4>
-        <h4>you will probably see me drinking some coffee or enjoying a cold beer.</h4>
-
-    </div>
-    <div id="MyWork">
-        <h2>My work</h2>
-        <div class="projects">
-            <div class="project12">
-                <h3>Slot Machine</h3>
-                <h5 style="padding-bottom: 3em;">A classic casino game, developed in HTML, CSS and JavaScript. </h5>
-                <img src="./MyWork/SlotMachine1.png" alt="Slot Machine" />
-            </div>
-            <div class="project12">
-                <h3>Website</h3>
-                <h5 style="padding-bottom: 3em;">A website made for a theater group, developed with Wordpress. </h5>
-                <img src="./MyWork/AvisSpletnaStran.png" alt="Avis spletna stran" />
-            </div>
-            <div class="project34">
-                <h3>Mobile App</h3>
-                <h5 style="padding-bottom: 3em;">Unfinished mobile app prototype, developed in React Native. </h5>
-                <img src="./MyWork/MobileApp.png" alt="Mobile App" />
-            </div>
-            <div class="project34">
-                <h3>Tic-Tac-Toe</h3>
-                <h5 style="padding-bottom: 3em;">Upcoming project, web tic-tac-toe game, developed in HTML, CSS and
-                    JavaScript </h5>
-                <img src="./MyWork/TicTacToe.png" alt="Tic Tac Toe" />
+                <div class="project12">
+                    <h3>Website</h3>
+                    <h5 style="padding-bottom: 3em;">A website made for a theater group, developed with Wordpress. </h5>
+                    <img id="Avis" src="./MyWork/AvisSpletnaStran.png" alt="Avis spletna stran" />
+                    <h6>Coming soon on my Github</h6>
+                </div>
+                <div class="project12">
+                    <h3>Mobile App</h3>
+                    <h5 style="padding-bottom: 3em;">Unfinished mobile app prototype, developed in React Native. </h5>
+                    <img id="MobileApp" src="./MyWork/MobileApp.png" alt="Mobile App" />
+                    <h6>Coming soon on my Github</h6>
+                </div>
+                <div class="project12">
+                    <h3>Tic-Tac-Toe</h3>
+                    <h5 style="padding-bottom: 3em;">Upcoming project, web tic-tac-toe game, developed in HTML, CSS and
+                        JavaScript </h5>
+                    <img id="TicTacToe" src="./MyWork/TicTacToe.png" alt="Tic Tac Toe" />
+                </div>
             </div>
         </div>
+
+        <div id="Contact">
+            <h2>Contact</h2>
+            <h4>Open to new opportunities, </h4>
+            <h4>friendly advices and Hello's are also welcome! </h4>
+            <br />
+            <a class="Touch" href="mailto:marcel.berlak@gmail.com">Contact</a>
+
+        </div>
+
+        <footer>
+            <p id="email">marcel.berlak@gmail.com</p>
+            <p id="copyright"> Marcel Berlak Ⓒ 2021</p>
+        </footer>
+
     </div>
-
-    <div id="Contact">
-        <h2>Contact</h2>
-        <h4>Open to new opportunities, </h4>
-        <h4>friendly advices and Hello's are also welcome! </h4>
-        <br />
-        <a class="Touch" href="mailto:marcel.berlak@gmail.com">Contact</a>
-
-    </div>
-
-    <div class="night">
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-    </div>
-
-    <footer>
-        <p id="email">marcel.berlak@gmail.com</p>
-        <p id="copyright"> Marcel Berlak Ⓒ 2021</p>
-    </footer>
 </body>
 
 <button onclick="topFunction()" id="ToTop" title="Go to top">To top</button>
 <!-- JavaScript -->
 <script>
+    /* To top button */
     mybutton = document.getElementById("ToTop");
 
     window.onscroll = function () { scrollFunction() };
 
     function scrollFunction() {
-        if (document.body.scrollTop > 1700 || document.documentElement.scrollTop > 1700) {
+        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
             mybutton.style.display = "block";
         } else {
             mybutton.style.display = "none";
@@ -132,6 +134,7 @@
         document.body.scrollTop = 0; //Safari
         document.documentElement.scrollTop = 0; // Chrome, Firefox, IE, Opera
     }
+
 </script>
 
 </html>

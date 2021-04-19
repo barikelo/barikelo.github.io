@@ -128,6 +128,7 @@ h5 {
   cursor: pointer;
   transition: 200ms;
   opacity: unset;
+  transform: scale(1.05);
 }
 
 hr {
